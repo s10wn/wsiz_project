@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 800px;
+  width: 100%;
+}
+#userForm {
+  width: 22%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#userForm article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#userForm article label {
+  font-size: 16px;
+  margin: 8px 0;
+}
+#userForm article input {
+  border: 1px solid #999;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s ease-in-out;
+}
+#userForm article input:focus {
+  border: 1px solid #2778e2;
+}
+#userForm article input:hover {
+  border: 1px solid #2778e2;
+}
+
+#userForm button {
+  width: 90%;
+  margin: 0 auto;
+  height: 40px;
+  background: #2778e2;
+  border: 1px solid #2778e2;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#userForm button:hover {
+  background: #fff;
+  color: #2778e2;
+}
+
+.tableContainer {
+  width: 77%;
+  padding: 20px 10px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+#data {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  margin-top: 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user h2 {
+  width: 33%;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px;
+  border: 1px solid #999;
+}
+.user-header h2{
+  font-size: 18px;
+}
+
+

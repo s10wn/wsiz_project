@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form id="userForm">
+       <article>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"  placeholder="Enter Name" required/>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"  placeholder="Enter Last Name" required/>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter Age" required/>
+       </article>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div class="tableContainer">
+        <h1>Adult Users</h1>
+        <div id="data">
+          <article class="user user-header">
+            <h2>First Name</h2>
+            <h2>Last Name</h2>
+            <h2>Age</h2>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
